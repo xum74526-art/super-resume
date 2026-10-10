@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-09",
+  "projects": [
+    { "directory": "reactive-resume", "repository": "https://github.com/reactive-resume/reactive-resume.git", "ref": "v6.0.1", "commit": "7cb690e2194eab92f0e0a090af70a9df5d9cb972", "license": "MIT", "purpose": "MCP tools/resources/prompts, schema boundaries, version-aware editing, future export adapters" },
+    { "directory": "resume-hq", "repository": "https://github.com/jananthan30/Resume-Builder.git", "ref": "master", "commit": "5f288fe1d5b931b17d2d24746f9598574f79d3ef", "license": "MIT", "purpose": "Plugin workflow and explicit job-requirement evidence" },
+    { "directory": "resume-matcher", "repository": "https://github.com/srbhr/Resume-Matcher.git", "ref": "main", "commit": "63fc344a9a59a79db6fa9d96aff188dc9faf545b", "license": "Apache-2.0", "purpose": "Future JD tailoring and document rendering adapters" },
+    { "directory": "json-resume", "repository": "https://github.com/jsonresume/jsonresume.org.git", "ref": "master", "commit": "dd0155358c8d85a134d434e49834705243b5eede", "license": "MIT", "sparsePaths": ["packages/schema"], "purpose": "Canonical JSON Resume data model; runtime consumes @jsonresume/schema 1.3.1" }
+  ]
+}

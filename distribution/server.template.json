@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.your-github/super-resume",
+  "title": "Super Resume",
+  "description": "Extract PDF/Word text, validate and tailor resumes, export PDF/DOCX. No LLM key needed.",
+  "repository": {
+    "url": "https://github.com/your-github/super-resume",
+    "source": "github"
+  },
+  "version": "0.7.5",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@your-npm/super-resume-mcp",
+      "version": "0.7.5",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

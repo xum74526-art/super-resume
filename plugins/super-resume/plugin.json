@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "super-resume",
+  "version": "0.7.5",
+  "description": "117 resume designs with optional photos, local editing, and PDF/Word export through portable MCP.",
+  "license": "UNLICENSED",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "超级简历 · Super Resume",
+        "shortDescription": "117 套简历设计、岗位示例、可选照片与 PDF / Word 导出",
+        "longDescription": "按真实经历制作简历。117 套设计覆盖 17 个分类，包含商务高管、瑞士国际、学术研究、校招青春、科技极客、作品提案、复古报刊、手账拼贴、新中式、时间叙事及原有风格。支持 PDF、可编辑 Word 和 HTML；本地工作台支持风格筛选、页码跳转、六种虚构岗位示例、内容编辑、作品链接及可选照片。MCP 提供结构校验、岗位关键词证据、预览和导出，无需额外模型 API Key。"
+      }
+    }
+  }
+}

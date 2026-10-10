@@ -1,0 +1,16 @@
+{
+  "name": "super-resume",
+  "version": "0.7.5",
+  "description": "117 resume designs with optional photos, local editing, and PDF/Word export through portable MCP.",
+  "author": {
+    "name": "Super Resume contributors"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "resume",
+    "cv",
+    "job-search",
+    "mcp",
+    "简历"
+  ]
+}

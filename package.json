@@ -1,0 +1,52 @@
+{
+  "name": "super-resume-mcp",
+  "version": "0.7.5",
+  "description": "Curated resume designs with local editing, optional photos, PDF/Word export and a portable MCP plugin.",
+  "private": true,
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.cjs",
+    "start:http": "node dist/cli.cjs --http",
+    "studio": "npm run build && node dist/cli.cjs --studio",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "test:local": "node scripts/test-local-flow.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "npm run typecheck && npm test && npm run build && npm run validate:distribution",
+    "validate:distribution": "node scripts/validate-distribution.mjs",
+    "upstreams:fetch": "node scripts/fetch-upstreams.mjs",
+    "samples:generate": "npm run build && tsx scripts/generate-design-samples.ts",
+    "release:configure": "node scripts/configure-publisher.mjs",
+    "release:check": "node scripts/validate-distribution.mjs --publish",
+    "release:pack": "npm run check && node scripts/package-release.mjs && node scripts/verify-artifacts.mjs",
+    "release:pack:public": "npm run check && npm run release:check && node scripts/package-release.mjs --publish && node scripts/verify-artifacts.mjs --publish"
+  },
+  "dependencies": {
+    "@jsonresume/schema": "1.3.1",
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "docx": "9.9.0",
+    "fast-json-patch": "3.1.1",
+    "fontkit": "2.0.4",
+    "pdf-lib": "1.17.1",
+    "saxes": "6.0.0",
+    "unpdf": "1.8.1",
+    "yauzl": "3.4.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/fontkit": "2.0.9",
+    "@types/node": "^24.0.0",
+    "@types/yauzl": "2.10.3",
+    "esbuild": "0.28.2",
+    "fflate": "^0.8.2",
+    "tsx": "^4.20.0",
+    "typescript": "7.0.2"
+  }
+}

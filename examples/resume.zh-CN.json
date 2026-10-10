@@ -1,0 +1,20 @@
+{
+  "basics": {
+    "name": "示例用户（虚构）",
+    "label": "软件工程师",
+    "email": "demo@example.com",
+    "summary": "此文件为功能验证用的虚构简历，不代表真实用户经历。",
+    "location": { "city": "上海", "countryCode": "CN" }
+  },
+  "work": [
+    {
+      "name": "示例公司（虚构）",
+      "position": "开发工程师",
+      "startDate": "2023-06",
+      "highlights": ["使用 TypeScript 和 Node.js 开发订单服务。", "参与数据分析与报表开发。"]
+    }
+  ],
+  "education": [],
+  "skills": [{ "name": "开发", "keywords": ["TypeScript", "Node.js", "SQL"] }],
+  "projects": []
+}

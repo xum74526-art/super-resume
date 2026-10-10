@@ -1,0 +1,13 @@
+{
+  "name": "super-resume",
+  "owner": { "name": "Super Resume contributors" },
+  "metadata": { "description": "Super Resume: portable resume tools and workflows for MCP agents." },
+  "plugins": [
+    {
+      "name": "super-resume",
+      "source": "./plugins/super-resume",
+      "description": "Portable resume tools for MCP agents.",
+      "category": "productivity"
+    }
+  ]
+}

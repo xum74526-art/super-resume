@@ -1,0 +1,7 @@
+{
+  "requirements": [
+    { "text": "使用 TypeScript 开发服务", "keywords": ["TypeScript"] },
+    { "text": "有 Python 开发经验", "keywords": ["Python"] },
+    { "text": "熟悉数据分析", "keywords": ["数据分析"] }
+  ]
+}

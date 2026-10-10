@@ -1,0 +1,97 @@
+{
+  "basics": {
+    "name": "陈知远",
+    "label": "高级后端工程师",
+    "email": "demo@example.com",
+    "phone": "138 0000 0000",
+    "location": {
+      "city": "上海"
+    },
+    "summary": "专注业务平台与数据系统建设，擅长把复杂流程拆解成稳定、可追踪的服务。重视接口质量、跨团队协作与可验证的交付结果。",
+    "url": "https://portfolio.example.com"
+  },
+  "work": [
+    {
+      "name": "星澜科技",
+      "position": "后端开发工程师",
+      "startDate": "2023-06",
+      "endDate": "2025-12",
+      "highlights": [
+        "负责订单服务从需求拆解到上线交付，使用 TypeScript、Node.js 与 PostgreSQL 支撑日常业务。",
+        "重构状态流转与异常重试机制，将重复订单率从 0.8% 降至 0.2%，补齐监控与回溯记录。",
+        "与产品、前端及运营协作，完成 6 次迭代发布，统一接口文档和验收标准。"
+      ]
+    },
+    {
+      "name": "知行数字",
+      "position": "软件开发实习生",
+      "startDate": "2022-07",
+      "endDate": "2023-03",
+      "highlights": [
+        "参与内部工单平台开发，实现任务分配与状态追踪，减少人工表格同步。",
+        "梳理 20 个接口的边界场景，补充集成测试与操作说明，支持团队平稳交接。"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "订单处理工作台",
+      "roles": [
+        "后端开发"
+      ],
+      "startDate": "2024-03",
+      "endDate": "2024-09",
+      "description": "面向运营与客服的协作工具，连接订单查询、处理记录和问题追踪。",
+      "highlights": [
+        "设计统一的输入校验与错误响应，支持操作记录检索，问题定位耗时缩短约 30%。",
+        "与前端共同定义字段和异常状态，交付可复用的接口示例与部署说明。"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "明川大学",
+      "studyType": "本科",
+      "area": "计算机科学与技术",
+      "startDate": "2019-09",
+      "endDate": "2023-06"
+    }
+  ],
+  "skills": [
+    {
+      "name": "服务与数据",
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "SQL"
+      ]
+    },
+    {
+      "name": "工程协作",
+      "keywords": [
+        "Git",
+        "接口文档",
+        "集成测试",
+        "Linux"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "软件设计师",
+      "issuer": "全国计算机技术与软件专业技术资格考试",
+      "date": "2023-11"
+    }
+  ],
+  "languages": [
+    {
+      "language": "英语",
+      "fluency": "CET-6 · 技术文档阅读与沟通"
+    }
+  ],
+  "meta": {
+    "sample": true,
+    "notice": "全部姓名、机构、经历和成果数字均为虚构示例，仅用于模板效果与文档验收，不代表用户经历。"
+  }
+}
