@@ -7,6 +7,8 @@
 - 再次运行 `npm run release:pack`，30 项测试全部通过，并完成构建、分发清单检查、三种安装包的独立解压及 MCP/PDF/Word 导出回读验证。
 - 上传清单共 263 个文件，包含完整插件 bundle、字体、装饰素材和第三方许可证。检查未发现私人参考资料、照片、开发机路径或凭据；依赖、缓存、生成文件和外部参考仓库均不进入 Git。
 - 使用本机 Codex 与 Claude Code 的原生 CLI 帮助确认 `owner/repo` 形式的 Git marketplace 安装入口。该检查不等同于新的宿主模型 UI 会话。
+- 首次推送后，使用不带登录凭据的 Git clone 重新下载仓库，下载的插件通过 22 次 MCP 调用，9 个工具全部可用，报告位于 `artifacts/local-test/github-0.7.5-Jzg4Nf/report.json`。
+- GitHub 首次 CI 发现锁文件将 `ip-address` 的版本和下载地址误记为不存在的 `10.7.5`。已校正为实际安装的 `10.7.3`，并向官方 npm Registry 核实下载地址及完整性散列；原锁文件的 integrity 本来就对应 `10.7.3`。插件业务代码与导出能力未变。
 
 ## 当前验收 0.7.5
 
